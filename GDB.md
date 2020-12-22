@@ -4,8 +4,9 @@
 
 - **Auto complete**: You can use the `[tab]` key to autocomplete commands or see a list of possible options.
 - **Clearing the terminal**: You can use `[Crtl]+[L]` to clear gdb (and bash!) on most terminal emulators. Alternatively you can also use the `shell clear` (posix) or `shell cls` (win) command to clear the terminal.
+- **Assembly syntax**: You can switch to your preffered asm syntax with `set disassembly-flavor intel` or `set disassembly-flavor att`.
 
-## Example commands
+## Basic example commands
 
 ### Loading an executable
 
@@ -46,4 +47,10 @@
 ```
 info frame
 (gdb) info
+```
+
+### Exit gdb
+```
+(gdb) quit
+(gdb) q
 ```
