@@ -1,4 +1,4 @@
-<h1 align="center">GDB debugger cheat sheet</h1>
+<h1 align="center">GDB cheat sheet</h1>
 
 ## General tips & tricks
 
