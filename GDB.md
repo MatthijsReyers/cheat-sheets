@@ -7,25 +7,25 @@
 
 ## Example commands
 
-### # Loading an executable
+### Loading an executable
 
 ```
 (gdb) file "path/to/exec.a"
 ```
 
-### # Running an executable
+### Running an executable
 
 ```
 (gdb) run
 ```
 
-### # Disassembling (main) function
+### Disassembling (main) function
 
 ```
 (gdb) disassemble main
 ```
 
-### # Placing breakpoints
+### Placing breakpoints
 ```
 (gdb) break main
 ```
@@ -33,12 +33,12 @@
 (gdb) break *0x0000000000400452
 ```
 
-### Continueing after hitting breakpoint
+### Continuing after hitting breakpoint
 ```
 (gdb) continue
 ```
 
-### # Viewing the stack
+### Viewing the stack
 ```
 info frame
 (gdb) info
