@@ -12,13 +12,13 @@
 (gdb) file "path/to/exec.a"
 ```
 
-### Disassembling (main) function
+### # Disassembling (main) function
 
 ```
 (gdb) disassemble main
 ```
 
-### Placing breakpoints
+### # Placing breakpoints
 *Using the name of a function:*
 ```
 (gdb) break main
@@ -28,14 +28,13 @@
 (gdb) break *0x0000000000400452
 ```
 
-### Running an executable
+### # Running an executable
 
 ```
 (gdb) run
 ```
 
-
-### View stack
+### # Viewing the stack
 ```
 info frame
 (gdb) info
