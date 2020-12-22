@@ -17,6 +17,7 @@
 
 ```
 (gdb) run
+(gdb) r
 ```
 
 ### Disassembling (main) function
@@ -28,14 +29,17 @@
 ### Placing breakpoints
 ```
 (gdb) break main
+(gdb) b main
 ```
 ```
 (gdb) break *0x0000000000400452
+(gdb) b *0x0000000000400452
 ```
 
 ### Continuing after hitting breakpoint
 ```
 (gdb) continue
+(gdb) c
 ```
 
 ### Viewing the stack
