@@ -10,17 +10,27 @@
 (gdb) file "path/to/exec.a"
 ```
 
+### Disassembling (main) function
+
+```
+(gdb) disassemble main
+```
+
+### Placing breakpoints
+
+```
+# Using the name of a function:
+(gdb) break main
+# Breaking at a given instruction:
+(gdb) break *0x0000000000400452
+```
+
 ### Running an executable
 
 ```
 (gdb) run
 ```
 
-### Disassembling (main) function
-
-```
-(gdb) disassemble main
-```
 
 ### View stack
 ```
