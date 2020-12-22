@@ -10,7 +10,13 @@
 (gdb) file "path/to/exec.a"
 ```
 
-### Disassemble (main) function
+### Running an executable
+
+```
+(gdb) run
+```
+
+### Disassembling (main) function
 
 ```
 (gdb) disassemble main
@@ -18,5 +24,6 @@
 
 ### View stack
 ```
-(gdb) disassemble main
+info frame
+(gdb) info
 ```
