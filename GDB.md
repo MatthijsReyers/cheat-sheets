@@ -6,7 +6,7 @@
 
 <h2 align="center"> Example commands </h2>
 
-### Loading an executable
+### # Loading an executable
 
 ```
 (gdb) file "path/to/exec.a"
