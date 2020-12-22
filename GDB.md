@@ -17,11 +17,12 @@
 ```
 
 ### Placing breakpoints
-
+*Using the name of a function:*
 ```
-# Using the name of a function:
 (gdb) break main
-# Breaking at a given instruction:
+```
+*Breaking at a given instruction:*
+```
 (gdb) break *0x0000000000400452
 ```
 
