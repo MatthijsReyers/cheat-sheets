@@ -1,6 +1,7 @@
 <h1 align="center">GDB cheat sheet</h1>
 
-<a href="https://github.com/MatthijsReyers/cheat-sheets">All cheatsheets</a>
+<a href="https://github.com/MatthijsReyers/cheat-sheets">All cheatsheets</a> - 
+<a href="https://linux.die.net/man/1/gdb">GDB manual page</a>
 
 <br>
 
