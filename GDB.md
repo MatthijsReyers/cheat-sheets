@@ -55,7 +55,8 @@ Lastly `$rsp` stands for the memory address in the rsp register, which is the lo
 ### Viewing info about the stack/registers
 ```
 (gdb) info frame
-(gdb) info
+(gdb) info registers
+(gdb) i r $rsp $rbp
 ```
 
 ### Exit gdb
