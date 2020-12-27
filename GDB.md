@@ -43,9 +43,18 @@
 (gdb) c
 ```
 
-### Viewing the stack
+### Examining the stack/memory
+Note that in the below command `4` stands for the amount of items to be printed. 
+`x` stands for 'hexadecimal' and `w` stands for 'word'; these are flags that specify the format to print the memory in.
+Some other possible flags include: `d` for printing the memory as decimal numbers, `i` for interpreting the data as instructions, `b` for setting the item size to be bytes, `a` for interpreting the data as memory addresses.
+Lastly `$rsp` stands for the memory address in the rsp register, which is the location to start printing the memory from (other registers and a raw adress in hex format can also be used).
 ```
-info frame
+(gdb) x/4xw $rsp
+```
+
+### Viewing info about the stack/registers
+```
+(gdb) info frame
 (gdb) info
 ```
 
