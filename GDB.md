@@ -21,7 +21,7 @@
 (gdb) r
 ```
 
-### Disassembling (main) function
+### Disassembling the main function
 
 ```
 (gdb) disassemble main
