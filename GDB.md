@@ -5,7 +5,15 @@
 
 <br>
 
-## General tips & tricks
+## Table of contents
+
+1. <a href="https://github.com/MatthijsReyers/cheat-sheets/blob/main/GDB.md#general-tips--tricks">General tips & tricks</a>
+2. <a href="https://github.com/MatthijsReyers/cheat-sheets/blob/main/GDB.md#basic-example-commands">Basic example commands</a>
+<!-- 3. <a href="https://github.com/MatthijsReyers/cheat-sheets/blob/main/GDB.md#general-tips--tricks">Getting stdin from a file</a> -->
+
+<br>
+
+## 1. General tips & tricks
 
 - **Auto complete**: You can use the `[tab]` key to autocomplete commands or see a list of possible options.
 - **Clearing the terminal**: You can use `[Crtl]+[L]` to clear gdb (and bash!) on most terminal emulators. Alternatively you can also use the `shell clear` (posix) or `shell cls` (win) command to clear the terminal.
@@ -13,7 +21,7 @@
 
 <br>
 
-## Basic example commands
+## 2. Basic example commands
 
 ### Loading an executable
 
