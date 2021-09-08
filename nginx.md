@@ -25,7 +25,8 @@ stuff here
 
 ### Disable leaking of OS and Nginx version.
 By the default Nginx will send the nginx version and operating system in the `Server` HTTP header, by adding this line to the `http` directive 
-in the main `/etc/nginx/nginx.conf` config file it will now only send `Server: nginx`:
+in the main `/etc/nginx/nginx.conf` config file it will now only leak that the server is running on nginx (which could be derived from many other
+things anyway):
 ```
 server_tokens off;
 ```
